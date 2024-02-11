@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/FZJ-IEK3-VSA/ETHOS_PeNALPS/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a4a51f9658b708d3511e8a979f555ff2449b21d1e5916fe23f8b40d07e80b5bd
+  sha256: 9034a0975297cfe43430a28f81411972299fccdc2324a518be22050b82d44793
 
 build:
   number: 2
