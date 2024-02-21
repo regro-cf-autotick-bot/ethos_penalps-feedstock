@@ -1,5 +1,5 @@
 {% set name = "ethos_penalps" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/FZJ-IEK3-VSA/ETHOS_PeNALPS/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 9034a0975297cfe43430a28f81411972299fccdc2324a518be22050b82d44793
+  sha256: 34f6d65bd8d54dbfd32984bf49eb3a7b81e59b650bb3e192ddb7a2bef7bf3e8b
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -49,8 +49,8 @@ requirements:
     - tectonic
     - typeguard
     - dataclasses-json
-    - pdftopng
     - jsonpickle
+    - pdf2image
 
 test:
   imports:
