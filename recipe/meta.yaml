@@ -1,5 +1,5 @@
 {% set name = "ethos_penalps" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/FZJ-IEK3-VSA/ETHOS_PeNALPS/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 34f6d65bd8d54dbfd32984bf49eb3a7b81e59b650bb3e192ddb7a2bef7bf3e8b
+  sha256: 6f5fa369e53c8e792d1f0a104e9e1e69287aa5d36f92f670cbd08984e1f7c658
 
 build:
   number: 0
