@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/FZJ-IEK3-VSA/ETHOS_PeNALPS/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 6f5fa369e53c8e792d1f0a104e9e1e69287aa5d36f92f670cbd08984e1f7c658
+  sha256: 908a43b80e250d442ac105bc712ecd7fcf2c5b78721f9585b4e42198a5622878
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
