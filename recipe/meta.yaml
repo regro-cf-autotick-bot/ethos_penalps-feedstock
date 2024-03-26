@@ -35,7 +35,7 @@ requirements:
     - xlsxwriter
     - prospector
     - matplotlib-base
-    - pytest
+    - pytest >7.0
     - pip >=21.3
     - black
     - pint
